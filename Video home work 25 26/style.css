@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menue-main{
+    background-color: #FFFFFF;
+    padding: 8px 0;
+}
+
+.menue-text{}
+.menue-text ul{
+    margin-bottom: 0;
+}
+.menue-text ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.menue-text ul li a{
+    text-decoration: none;
+    color: #515151;
+    margin-right: 20px;
+
+    font-size: 20px;
+    line-height: 63px;
+}
+.menue-text ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.btn-primary {
+    color: #fff; 
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    margin-top: 10px;
+    transition: .5s;
+}
+
+.padding-bb{
+    padding-bottom: 170px;
+}
+.btn-primary:hover{
+}
+.menue-logo h1 {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0;
+  line-height: 63px;
+  color: #686868;
+}
+/* banner-section */
+.banner-section{
+    background-image: url(https://mobirise.com/bootstrap-template/bootstrap-page-templates/assets/images/phillip-sauerbeck-22369-unsplash-2000x1333.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 130px 0;
+}
+
+.banner-section p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 21px;
+}
+.banner-section h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+}
+.banner-section a{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    background: #FF3636;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 23px;
+    transition: .5s;
+}
+.banner-section a:hover{
+    background-color: #af0606;
+
+}
+
+
+/* img-gllary */
+
+.img-gllary {
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.img-gllary img{
+    max-width: 100%;
+}
+.img-tex2{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0px;
+}
+
+
+.gallry-width{
+    height: 494px;
+    overflow: hidden;
+}
+.gallry-width2{
+    height: 235px;
+    overflow: hidden;
+}
+
+.gallry-width2{
+    position: relative;
+}
+.img-tex h4{
+
+    color: white;
+    margin-top: 36%;
+}
+.img-tex{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    text-align: center;
+}
+.img-tex{
+
+}
+
+
+.gallry-width{
+    position: relative;
+}
+
+
+.img-tex2 h4{
+    margin-top: 89px;
+    color: white;
+    margin-left: 120px;
+}
+
+.width-img-gallry{margin-bottom: 25px;}
+
+
+
+.gallry-width{
+    position: relative;
+}
+.img-tex::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 14px;
+    width: 96%;
+    height: 100%;
+    background-color: #3a3f467d;
+    z-index: -1;
+    right: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: ease-in-out .3s;
+}
+.img-tex:hover::before{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+.position1{
+    position: relative;
+}
+.position1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: #3a3f467d;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: ease-in-out .5s;
+}
+.position1:hover::before{
+    visibility: visible;
+    opacity: 1;
+}
+.position2{
+    position: relative;
+}
+.position2::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: #3a3f467d;
+    
+    visibility: hidden;
+    opacity: 0;
+    transition: ease-in-out .5s;
+}
+.position2:hover::before{
+    visibility: visible;
+    opacity: 1;
+}
+.position3{
+    position: relative;
+}
+.position3::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: #3a3f467d;
+    visibility: hidden;
+    opacity: 0;
+    transition: ease-in-out .5s;
+}
+.position3:hover::before{
+    visibility: visible;
+    opacity: 1;
+}
+.position4{
+    position: relative;
+}
+.position4::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: #3a3f467d;
+    visibility: hidden;
+    opacity: 0;
+    transition: ease-in-out .5s;
+}
+.position4:hover::before{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* voluteer-items */
+.volumteer {
+    margin-top: 201px;
+    margin-bottom: 100px;
+}
+.voluteer-items{}
+.voluteer-items img{
+    max-width: 100%;
+}
+.voluteer-items h3 {
+    font-family: "Roboto", sans-serif;
+    padding: 20px;
+}
+.voluteer-items p {
+    padding: 0 20px;
+}
+.voluteer-items a {
+    background: #ff3636;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 18px;
+    margin-left: 20px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.voluteer-items a:hover{
+    background-color: #A42323;
+}
+
+.words {
+    margin-bottom: 100px;
+}
+.words-text {
+    text-align: center;
+    padding: 26px;
+    margin-top: 75px;
+
+}
+.words-text h1 {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 30px;
+}
+.words-text p {
+    color: #8a8a8a;
+}
+.words-text a {
+    text-decoration: none;
+    color: white;
+    background: red;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+.words-text a:hover{
+    background-color: rgb(165, 0, 0);
+}
+.words-img{width: 80%;}
+.words-img img{
+    max-width: 100%;
+}
+.class{
+    width: 84px;
+    height: 4px;
+    background-color: black;
+    margin: auto;
+    margin-bottom: 24px;
+}
+.tulips-season{
+    background-image: url(https://mobirise.com/bootstrap-template/bootstrap-page-templates/assets/images/leigh-kendell-581-unsplash-2000x1329.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    padding: 70px 0;
+    position: relative;
+}
+.tulips-season::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000004f;
+}
+
+.tulips-season {
+  margin-bottom: 100px;
+}
+.tulips h1{
+    color: white;
+}
+.tulips p{
+    color: rgb(255, 255, 255);
+}
+.raikb{
+    z-index: 1;
+}
+
+.contact-section{
+    margin-bottom: 100px;
+}
+.contacts-itms {
+    margin-left: 60px;
+}
+.contacts-itms h3 {
+}
+.contacts-itms a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+.contacts-itms i {
+    font-size: 20px;
+    color: #444;
+    margin: 7px 0;
+    margin-right: 21px;
+}
+.contacts-itms span {
+}
+.conact-icon {
+    margin: 30px 0;
+    margin-left: 60px;
+}
+.conact-icon span {
+    font-size: 27px;
+    color: #5b5b5b;
+    margin-right: 8px;
+}
+.conact-icon i {
+    width: 50px;
+    height: 50px;
+    color: #484848;
+    background: #e3e3e3;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+}
+.conact-icon h3 {
+}
+.conact-icon p {
+}
+
+.submit-contact {
+    margin-left: 60px;
+}
+.submit-contact h3 {
+    color: #6f6f6f;
+}
+.submit-contact p {
+    color: #8a8a8a;
+}
+.submit-contact input {
+    padding: 14px 16px;
+    border: 1px solid #ddd;
+    margin-right: -5px;
+}
+.submit-contact a {
+    text-decoration: none;
+    color: white;
+    background: red;
+    display: inline-block;
+    padding: 15px 17px;
+}
+
+/* footer */
+.footer{ 
+    background-color: black;
+    padding-top:50px; 
+}
+
+.footer-tex1 {
+}
+.footer-tex1 h2 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.footer-tex1 p {
+    color: white;
+}
+.ci2 {
+    margin-left: 0;
+}
+.ci2 h3 {
+    color: white;
+}
+.ci2 a {
+    color: white;
+    font-weight: 300;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.ci2 i {
+    color: white;
+}
+.ci2 span {
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.conact-icon-footer {
+    margin-top: 20px;
+}
+.conact-icon-footer a {
+}
+.conact-icon-footer i {
+    color: white;
+    font-size: 22px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #df545a;
+    text-align: center;
+    margin-right: 5px;
+}
+   
+.footer-img-section{}
+.footer-img-section h3{color: white;margin: 0;}
+
+.footer-img-width{width: 30%;}
+.footer-img-width img{
+    max-width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
+}
